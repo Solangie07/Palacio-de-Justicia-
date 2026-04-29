@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palacio de Justicia</title>
+</head>
+<body>
+    
+</body>
+</html>
+
+<style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      background-color: #111;
+      color: #eee;
+      line-height: 1.6;
+    }
+    section {
+      min-height: 100vh;
+      padding: 60px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    h1, h2 {
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 3em;
+      color: #f44336;
+    }
+    h2 {
+      font-size: 2em;
+      color: #ff9800;
+    }
+    p {
+      max-width: 800px;
+      margin-bottom: 20px;
+    }
+    .hero {
+      background: url('palacio_portada.jpg') no-repeat center center/cover;
+      color: #fff;
+      text-shadow: 2px 2px 4px #000;
+    }
+    .gallery {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .gallery img {
+      width: 300px;
+      border: 2px solid #444;
+    }
+    video {
+      max-width: 100%;
+      border: 2px solid #444;
+      margin-top: 20px;
+    }
+    footer {
+      background: #000;
+      color: #aaa;
+      text-align: center;
+      padding: 20px;
+    }
+    .boton {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #f44336;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+    .boton:hover {
+      background-color: #d32f2f;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Portada -->
+  <section class="hero">
+    <h1>La Toma del Palacio de Justicia</h1>
+    <p>Un recorrido inmersivo por los hechos del 6 y 7 de noviembre de 1985 en Bogotá.</p>
+  </section>
+
+  <!-- Contexto -->
+  <section>
+    <h2>Contexto</h2>
+    <p>El M-19, en medio del conflicto armado colombiano, irrumpió en el Palacio de Justicia. Este acto marcó un antes y un después en la historia del país.</p>
+    <div class="gallery">
+      <img src="palacio_antes.jpg" alt="Palacio antes de la toma">
+      <img src="magistrados.jpg" alt="Magistrados de la Corte Suprema">
+    </div>
+  </section>
+
+  <!-- El Asalto -->
+  <section>
+    <h2>El Asalto</h2>
+    <p>El 6 de noviembre de 1985, guerrilleros del M-19 entraron al Palacio de Justicia. Las fuerzas militares respondieron con un operativo que duró dos días.</p>
+    <video controls>
+      <source src="asalto.mp4" type="video/mp4">
+      Tu navegador no soporta video.
+    </video>
+  </section>
+
+  <!-- El Incendio -->
+  <section>
+    <h2>El Incendio</h2>
+    <p>El fuego consumió gran parte del edificio. Las imágenes transmitidas en vivo mostraron el Palacio ardiendo mientras se escuchaban disparos.</p>
+    <img src="palacio_incendio.jpg" alt="Palacio en llamas" style="width:100%; max-width:800px;">
+  </section>
+
+  <!-- Las Víctimas -->
+  <section>
+    <h2>Las Víctimas</h2>
+    <p>Más de 100 personas murieron, incluidos magistrados, empleados y visitantes. Muchos aún permanecen desaparecidos.</p>
+    <div class="gallery">
+      <img src="victimas1.jpg" alt="Víctimas recordadas">
+      <img src="victimas2.jpg" alt="Familiares en homenaje">
+    </div>
+  </section>
+
+  <!-- Memoria -->
+  <section>
+    <h2>Memoria</h2>
+    <p>Recordar la toma del Palacio de Justicia es un ejercicio de memoria histórica. El edificio reconstruido hoy lleva una placa conmemorativa.</p>
+    <video controls>
+      <source src="documental.mp4" type="video/mp4">
+      Tu navegador no soporta video.
+    </video>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Proyecto de memoria histórica - Palacio en Llamas © 2026</p>
+    <a href="https://tusitio.com/galeria" class="boton" target="_blank">Ver más videos e imágenes</a>
+  </footer>
+
+</body>
+</html>

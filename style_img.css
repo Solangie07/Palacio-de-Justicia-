@@ -1,0 +1,16 @@
+body {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+img {
+    width: 30vw; 
+    margin: 5px;
+    
+}
+
+iframe{
+     width: 30vw; 
+    margin: 5px;
+}
